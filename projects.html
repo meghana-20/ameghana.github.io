@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="project_style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="styles.css" />
+<style>
+div {
+  margin-bottom: 15px;
+  padding: 4px 12px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #080e1c;
+  
+}
+h2 {
+  color: black; /* Setting text color of h2 elements to yellow */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: #fff;
+}
+.card img {
+  width: 100%;
+  height: 200px; /* Adjust this value as needed */
+  object-fit: cover; /* This ensures the image covers the entire container */
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#" class="logo"><span>As</span>oori</a>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="skills.html">Skills</a>
+        <a href="education.html">Education</a>
+        <a href="#">Projects</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+<h2 style="text-align:center">Projects</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="img/parking.png" alt="Parking Management System" style="width:100%">
+      <div class="container">
+        <h2>Parking Management System</h2>
+        <p>Developed an efficient Parking Management System using Spring Tools, facilitating vehicle allocation and parking slot
+ management.<br />
+ •
+ Utilized ETL principles, Spring Framework, and MY SQL for seamless data management and user-friendly GUI
+ enhancement.<br />
+ •
+ Reduced congestion and improved parking operations, delivering actionable insights through comprehensive reporting.</p>
+       
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img/aial.jpg" alt="aial" style="width:100%">
+      <div class="container">
+        <h2>Harvesting Insights: Leverging Machine Learning for improved agriculture yield prediction and variety management</h2>
+        <p>Solving Alternate Bearing Problem in pecans Via machine learning, potential patterns in pistillate fruiting and subsequent catkin flowering the following season may be found to better understand alternate bearing (a phenomenon regularly demonstrated in Carya illinoinensis, the pecan)</p>
+
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="img/panorama1.jpg" alt="panorama" style="width:100%">
+      <div class="container">
+        <h2>Robust Alignment of Panoramic Stitching via Exact Rank Constraint</h2>
+        <p> Engineered a cutting-edge panoramic image stitching system using Python, machine learning algorithms, and Flask web
+ framework.<br />
+ •
+ Seamlessly aligned images, employed machine learning techniques, and created an intuitive user interface.<br />
+ •
+ Showcased fusion of machine learning and web technologies for an innovative user experience.</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<footer>
+  <div class="footer">
+  <div class="row">
+  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+  <a href="#"><i class="fa-brands fa-github"></i></a>
+  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+  </div>
+  
+  <div class="row">
+  <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="skills.html">Skills</a></li>
+  <li><a href="education.html">Education</a></li>
+  <li><a href="#">Project</a></li>
+  <li><a href="hobbies.html">Hobbies</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  </ul>
+  </div>
+  
+  </div>
+  </footer>
+</html>

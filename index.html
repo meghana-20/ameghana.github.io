@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+  <section class="hero">
+
+    <header>
+      <nav>
+        <a href="#" class="logo"><span>As</span>oori</a>
+
+        <div class="nav-links" >
+          <a href="#">Home</a>
+          <a href="skills.html">Skills</a>
+          <a href="education.html">Education</a>
+          <a href="projects.html">Projects</a>
+          <a href="hobbies.html">Hobbies</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <span><i class="fa-solid fa-sun btn-mode"></i></span>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="div-text">
+        <h4>Hello My Name is </h4>
+        <h1>Meghana Asoori</h1>
+        <span>- Graduate Student</span>
+        <p> with experience as both a teaching assistant and graduate assistant , I specialized in Excel organization, handling tasks with precision and efficiency. Beyond my professional roles, I'm actively involved in coding.<br />
+          Through this portfolio, I aim to showcase my academic achievements, professional experiences, and personal interests. I'm excited to share my journey with you and explore future opportunities together!
+        </p>
+        <a href="https://github.com/meghana-20/meghaasoori.github.io/blob/main/Resume_Meghana.pdf" class="btn">Download CV</a>
+      </div>
+      <div class="div-img">
+        <img src="img\megha.jpg" alt="">
+        <div class="social-icon">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    var btnMode = document.querySelector('.btn-mode');
+    btnMode.onclick = function(){
+      document.body.classList.toggle("white-theme")
+      btnMode.classList.toggle("fa-sun")
+      btnMode.classList.toggle("fa-moon")
+    }
+  </script>
+    
+
+</body>
+
+<footer style="padding-top: 20px; background-color: #080e1c;">
+  <div class="footer">
+  <div class="row">
+  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+  <a href="#"><i class="fa-brands fa-github"></i></a>
+  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+  </div>
+  
+  <div class="row">
+  <ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="skills.html">Skills</a></li>
+  <li><a href="education.html">Education</a></li>
+  <li><a href="projects.html">Project</a></li>
+  <li><a href="hobbies.html">Hobbies</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  </ul>
+  </div>
+  
+  </div>
+  </footer>
+</html>
